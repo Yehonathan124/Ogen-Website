@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>עוגן – דף הבית</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <img src="assets/images.jpg" alt="עוגן">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">דף הבית</a></li>
+                <li><a href="features.html">פיצ'רים</a></li>
+                <li><a href="pricing.html">תמחור</a></li>
+                <li><a href="faq.html">שאלות נפוצות</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-text">
+            <h1>עוגן – הליווי שלך בדרך לאיכות חיים</h1>
+            <p>האפליקציה שמספקת למבוגרים תמיכה, סדר וליווי אישי – בכל יום מחדש.</p>
+            <a href="features.html" class="btn-primary">לגלות את הפיצ'רים שלנו</a>
+        </div>
+    
+        <div class="hero-image">
+            <div class="blob-bg"></div>
+            <img src="assets/picture.png" alt="אפליקציית עוגן" class="hero-app-img">
+        </div>
+    </section>
+
+    <section class="features">
+        <h2 style="text-align:center;">למה לבחור בנו?</h2>
+        <div class="grid-container">
+            <div class="card">
+                <h3>ליווי אישי</h3>
+                <p>תמיכה מותאמת אישית לכל משתמש.</p>
+            </div>
+            <div class="card">
+                <h3>תזכורות</h3>
+                <p>ניהול תרופות ומשימות יומיומיות.</p>
+            </div>
+            <div class="card">
+                <h3>24/7 תמיכה</h3>
+                <p>אנחנו כאן בשבילכם תמיד.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section" style="background: #fff; text-align: center; padding: 60px 10%;">
+        <div id="main-contact-form">
+            <h2>מעוניינים בשיחת התאמה?</h2>
+            <p>השאירו פרטים ונחזור אליכם לשיחת היכרות אישית בהקדם.</p>
+            <form action="#contact-thanks" method="GET" style="max-width: 500px; margin: 20px auto; display: flex; flex-direction: column; gap: 10px;">
+                <input type="text" placeholder="שם מלא" required style="padding: 12px; border: 1px solid #ccc; border-radius: 5px;">
+                <input type="tel" placeholder="מספר טלפון" required style="padding: 12px; border: 1px solid #ccc; border-radius: 5px;">
+                <button type="submit" class="btn-primary" style="border: none; cursor: pointer; padding: 15px;">שלח בקשה לשיחת התאמה</button>
+            </form>
+        </div>
+
+        <div id="contact-thanks" class="success-message-box" style="display:none; color: #004a99; background: #e7f3ff; padding: 30px; border-radius: 15px; border: 2px solid #004a99;">
+            <h3 style="margin:0; font-size: 1.5rem;">✅ הפרטים נשלחו בהצלחה!</h3>
+            <p style="font-size: 1.1rem; margin-top: 10px;">תודה על פנייתך. נציג של "עוגן" יחזור אליך בשעות הקרובות לתיאום שיחת התאמה אישית.</p>
+            <a href="index.html" style="color: #004a99; font-weight: bold; text-decoration: underline;">חזרה לדף הבית</a>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-container" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px; text-align: right;">
+            <div style="flex: 1; min-width: 200px;">
+                <h3>עוגן</h3>
+                <p>השותף שלך לחיים עצמאיים ובטוחים. אנחנו כאן כדי להעניק שקט נפשי למבוגרים ולבני משפחותיהם.</p>
+            </div>
+            <div style="flex: 1; min-width: 200px;">
+                <h4>ניווט מהיר</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="index.html" style="color: #ccc; text-decoration: none;">דף הבית</a></li>
+                    <li><a href="features.html" style="color: #ccc; text-decoration: none;">פיצ'רים</a></li>
+                    <li><a href="faq.html" style="color: #ccc; text-decoration: none;">שאלות נפוצות</a></li>
+                </ul>
+            </div>
+            <div style="flex: 1; min-width: 200px;">
+                <h4>צור קשר</h4>
+                <p>📧 info@ogen.co.il</p>
+                <p>📞 0527575136</p>
+                <p>📍 ראש העין, ישראל</p>
+            </div>
+        </div>
+        <hr style="margin: 20px 0; border: 0; border-top: 1px solid #444;">
+        <p>© 2026 עוגן – כל הזכויות שמורות</p>
+    </footer>
+
+</body>
+</html>

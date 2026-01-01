@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>עוגן – חבילות ותמחור</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo"><img src="assets/images.jpg" alt="עוגן"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">דף הבית</a></li>
+                <li><a href="features.html">פיצ'רים</a></li>
+                <li><a href="pricing.html">תמחור</a></li>
+                <li><a href="faq.html">שאלות נפוצות</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="pricing-section" style="text-align: center; padding-bottom: 50px;">
+        <h1>בחר את התוכנית המתאימה לך</h1>
+        <p>שקיפות מלאה, ללא התחייבות ארוכת טווח.</p>
+        
+        <div class="grid-container" style="margin-top: 40px;">
+            <div class="card">
+                <h3>בסיסי</h3>
+                <p class="price" style="font-size: 1.5rem; font-weight: bold;">₪29/חודש</p>
+                <p>תזכורות וניהול משימות</p>
+                <a href="#signup" class="btn-primary" style="text-decoration:none;">התחל עכשיו</a>
+            </div>
+            <div class="card featured" style="border: 2px solid #004a99; transform: scale(1.05);">
+                <h3>מתקדם</h3>
+                <p class="price" style="font-size: 1.5rem; font-weight: bold;">₪59/חודש</p>
+                <p>ליווי אישי + מעקב בריאות</p>
+                <a href="#signup" class="btn-primary" style="text-decoration:none;">הנפוץ ביותר</a>
+            </div>
+            <div class="card">
+                <h3>פרימיום</h3>
+                <p class="price" style="font-size: 1.5rem; font-weight: bold;">₪99/חודש</p>
+                <p>תמיכה 24/7 + כל הפיצ'רים</p>
+                <a href="#signup" class="btn-primary" style="text-decoration:none;">צרו קשר</a>
+            </div>
+        </div>
+    
+        <div id="signup" class="form-wrapper">
+            <div class="form-content">
+                <h3>נשמח להצטרפותך!</h3>
+                <p>השאר פרטים ונציג יחזור אליך בהקדם.</p>
+                <form action="#thanks" method="GET">
+                    <input type="text" placeholder="שם מלא" required style="width:100%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px;">
+                    <input type="email" placeholder="אימייל" required style="width:100%; padding:10px; margin:10px 0; border:1px solid #ccc; border-radius:5px;">
+                    <button type="submit" class="btn-primary" style="width:100%; border:none; padding:12px; cursor:pointer;">שלח פרטים</button>
+                </form>
+            </div>
+        </div>
+    
+        <div id="thanks" class="success-wrapper">
+            <div class="success-box">
+                <h3 style="color: green;">הפרטים התקבלו!</h3>
+                <p>תודה, נציג של "עוגן" יחזור אליך בזמן הקרוב.</p>
+                <a href="pricing.html" style="color: #004a99; text-decoration: none; font-weight: bold;">חזרה לתמחור</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-container" style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 30px; text-align: right;">
+            <div style="flex: 1; min-width: 200px;">
+                <h3>עוגן</h3>
+                <p>השותף שלך לחיים עצמאיים ובטוחים. אנחנו כאן כדי להעניק שקט נפשי למבוגרים ולבני משפחותיהם.</p>
+            </div>
+            <div style="flex: 1; min-width: 200px;">
+                <h4>ניווט מהיר</h4>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="index.html" style="color: #ccc; text-decoration: none;">דף הבית</a></li>
+                    <li><a href="features.html" style="color: #ccc; text-decoration: none;">פיצ'רים</a></li>
+                    <li><a href="faq.html" style="color: #ccc; text-decoration: none;">שאלות נפוצות</a></li>
+                </ul>
+            </div>
+            <div style="flex: 1; min-width: 200px;">
+                <h4>צור קשר</h4>
+                <p>📧 info@ogen.co.il</p>
+                <p>📞 0527575136</p>
+                <p>📍 ראש העין, ישראל</p>
+            </div>
+        </div>
+        <hr style="margin: 20px 0; border: 0; border-top: 1px solid #444;">
+        <p>© 2026 עוגן – כל הזכויות שמורות</p>
+    </footer>
+
+</body>
+</html>
