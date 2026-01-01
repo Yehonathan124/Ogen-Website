@@ -1,3 +1,9 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* הגדרות גלובליות - קוד נקי ומאורגן */
 :root {
     --primary-color: #004a99;
@@ -310,5 +316,6 @@ body {
 #contact-thanks:target ~ #main-contact-form {
     display: none;
 }
+
 
 
