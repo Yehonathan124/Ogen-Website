@@ -1,7 +1,7 @@
 img {
     max-width: 100%;
     height: auto;
-    display: block;
+    display: enable;
 }
 
 /* הגדרות גלובליות - קוד נקי ומאורגן */
@@ -316,6 +316,7 @@ body {
 #contact-thanks:target ~ #main-contact-form {
     display: none;
 }
+
 
 
 
